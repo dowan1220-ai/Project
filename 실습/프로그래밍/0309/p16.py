@@ -1,5 +1,9 @@
-season = input("계절을 입력하시오"
-"예시:")
+print("계절을 입력하시오")
+print("예시:")
+print("spring")
+print("summer")
+print("fall")
+season = input("winter :")
 if season == "spring":
     print("봄이 왔네요!")
 elif season == "summer":
