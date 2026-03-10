@@ -1,0 +1,21 @@
+.body {
+    background-color: aliceblue;
+    margin: 20px;
+}
+
+
+*{
+    font-family: "궁서체";
+}
+.title {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+#introduce {
+    margin-left: 15px;
+}
+
+.images {
+    display: flex;
+}

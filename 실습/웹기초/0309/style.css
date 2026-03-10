@@ -1,7 +1,4 @@
-body {
-    background: #075d70;
-    background: linear-gradient(268deg, rgba(7, 93, 112, 1) 0%, rgba(0, 191, 255, 1) 99%);
-}
+
 .title {
     margin: 10px;
     padding: 10px;
@@ -23,5 +20,4 @@ hr {
     width: 60;
     padding: 15px;
     margin: 15px;
-    margin-left: 20px;
 }
