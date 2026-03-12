@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페 주문 웹페이지</title>
+    <link rel="stylesheet" href="/실습/웹기초/기본/웹페이지/css/reset.css">
+    <link rel="stylesheet" href="/실습/웹기초/기본/웹페이지/css/style.css">
+</head>
+<body>
+    <div class="intro">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="/실습/웹기초/기본/웹페이지/icon-coffee.png" alt="커피" style="width: 35px; height: 35px;">
+            <h1>DGSW 카페</h1>
+        </div>
+        <p>바쁜 하루 중 잠시 숨을 고를 수 있는 곳 DGSW 카페 입니다.</p>
+        <p>정성껏 내린 커피와 함께 당신만의 소중한 시간을 채워보세요.</p>
+        <br><hr>
+    </div>
+    <h2>MENU</h2>
+    <table>
+        <caption>카페 메뉴 정보</caption>
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th>메뉴명</th>
+                <th>가격</th>
+            </tr>
+        </thead>
+        <tbody>        
+            <tr>
+                <td rowspan="2">Coffee</td>
+                <td>아메리카노</td>
+                <td>2,500원</td>
+            </tr>
+            <tr>
+                <td>녹차라떼</td>
+                <td>3,500원</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Non-Coffee</td>
+                <td>딸기 스무디</td>
+                <td>4,500원</td>
+            </tr>
+            <tr>
+                <td>녹차라떼</td>
+                <td>4,000원</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Hot/Cold 선택 가능</td>
+        </tfoot>
+    </table>
+</body>
+</html>
